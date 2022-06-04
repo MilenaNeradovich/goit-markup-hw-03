@@ -15,14 +15,14 @@
 <body>
     <header>
         <div class="container header-container">
-            <a href="#" class="logo">Web<span class="logo-header">Studio</span></a>
+            <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
             <nav class="site-nav">
                 <ul class="navigation-list">
                     <li class="navigation-item">
                         <a href="./index.html" class="link navigation-link">Студия</a>
                     </li>
                     <li class="navigation-item">
-                    <a href="#"class="link current navigation-link" >Портфолио</a>
+                    <a href="./portfolio.html"class="link current navigation-link" >Портфолио</a>
                     </li>
                     <li class="navigation-item">
                         <a href="#" class="link navigation-link">Контакты</a>
@@ -40,9 +40,9 @@
         </div>
     </header>
     <main>
-        <section class="portfolio-nav">
+        <section class="portfolio-nav section">
             <div class="container">
-                <h1 class="works-title">Наши работы</h1>
+                <h1 class="visually-hidden">Наши работы</h1>
                     <ul class="button-list">
                         <li>
                             <button type="button" class="link link-current">Все</button>
@@ -63,48 +63,66 @@
                     <ul class="works">
                         <li class="work-item">
                             <img src="./images/technokrjak.jpg" alt="Технокряк - Веб-сайт" width="370" />
-                            <h2>Технокряк</h2>
-                            <p>Веб-сайт</p>
+                            <div class="work-description">
+                                <h2>Технокряк</h2>
+                                <p>Веб-сайт</p>
+                            </div>
                         </li>                        
                         <li class="work-item">
                             <img src="./images/poster.jpg" alt="Постер New Orlean vs Golden Star - Дизайн" width="370" />
-                            <h2>Постер New Orlean vs Golden Star</h2>
-                            <p>Дизайн</p>
+                            <div class="work-description">
+                                <h2>Постер New Orlean vs Golden Star</h2>
+                                <p>Дизайн</p>
+                            </div>
                         </li>
                         <li class="work-item">
-                            <img src="./images/restaurant.jpg" alt="Ресторан Seafood - Приложение" width="370" />                            
-                            <h2>Ресторан Seafood</h2>
-                            <p>Приложение</p>
+                            <img src="./images/restaurant.jpg" alt="Ресторан Seafood - Приложение" width="370" />                                                       
+                            <div class="work-description">
+                                <h2>Ресторан Seafood</h2>
+                                <p>Приложение</p>
+                            </div>    
                         </li>
                         <li class="work-item">
                             <img src="./images/prime.jpg" alt="Проект Prime -  Маркетинг" width="370" />
-                            <h2>Проект Prime</h2>
-                            <p>Маркетинг</p>
+                            <div class="work-description">
+                                <h2>Проект Prime</h2>
+                                <p>Маркетинг</p>
+                            </div>
                         </li>                        
                         <li class="work-item">
                             <img src="./images/boxes.jpg" alt="Проект Boxes - Приложение" width="370" />
-                            <h2>Проект Boxes</h2>
-                            <p>Приложение</p>
+                            <div class="work-description">
+                                <h2>Проект Boxes</h2>
+                                <p>Приложение</p>
+                            </div>
                         </li>
                         <li class="work-item">
                             <img src="./images/inspiration.jpg" alt="Inspiration has no Borders - Веб-сайт" width="370" />
-                            <h2>Inspiration has no Borders</h2>
-                            <p>Веб-сайт</p>
+                            <div class="work-description">
+                                <h2>Inspiration has no Borders</h2>
+                                <p>Веб-сайт</p>
+                            </div>
                         </li>
                         <li class="work-item">
                             <img src="./images/edition.jpg" alt="Издание Limited Edition - Дизайн" width="370" />
-                            <h2>Издание Limited Edition</h2>
-                            <p>Дизайн</p>
+                            <div class="work-description">
+                                <h2>Издание Limited Edition</h2>
+                                <p>Дизайн</p>
+                            </div>
                         </li>
                         <li class="work-item">
                             <img src="./images/LAB.jpg" alt="Проект LAB - Маркетинг" width="370" />
-                            <h2>Проект LAB</h2>
-                            <p>Маркетинг</p>
+                            <div class="work-description">
+                                <h2>Проект LAB</h2>
+                                <p>Маркетинг</p>
+                            </div>
                         </li>
                         <li class="work-item">
                             <img src="./images/growing.jpg" alt="Growing Business - Приложение" width="370" />
-                            <h2>Growing Business</h2>
-                            <p>Приложение</p>
+                            <div class="work-description">
+                                <h2>Growing Business</h2>
+                                <p>Приложение</p>
+                            </div>
                         </li>
                     </ul>
             </div>
@@ -114,13 +132,15 @@
         <div class="container">
             <a href="#" class="logo">Web<span class="logo-footer">Studio</span></a>
             <address class="contacts-footer">
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <ul>
-                    <li>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <ul class="list">
+                    <li class="footer-item">
+                        <a class="link link-street" href="https://goo.gl/maps/mTJ8cYcqi1DRQW3Y8" target="_blank" rel="noopener noreferree">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="footer-item">
+                        <a  class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-item">
+                        <a  class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
