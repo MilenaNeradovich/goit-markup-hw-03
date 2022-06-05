@@ -55,7 +55,7 @@ a {
   align-items: center;
 }
 
-.logo {
+.logo-header {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -65,7 +65,7 @@ a {
   padding-bottom: 24px;
   margin-right: 93px;
 }
-.logo-header {
+.logo {
   color: var(--main-text-color);
  
 }
@@ -256,7 +256,8 @@ a {
 }
 
 .team-description{
-  margin: 30px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -279,6 +280,14 @@ a {
   padding-bottom: 60px;
 }
 .logo-footer {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-studio{
   color: var(--white-color);
 }
 /* contacts-footer */
@@ -374,14 +383,19 @@ header{
 .button-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 56px;
   }
 
+.button-item{
+  margin-bottom: 50px;
+  margin-right: 8px;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
 
+.button-item:last-child{
+  margin-right: 0;
+}
   .button-list .link{
-    margin-right: 8px;
-    border-radius: 4px;
-    padding: 6px 22px;
     border: none;
   }
 
